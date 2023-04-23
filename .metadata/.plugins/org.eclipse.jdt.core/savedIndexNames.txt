@@ -1,0 +1,4 @@
+INDEX VERSION 1.132+/home/neolux/Projects/eclipse-java/.metadata/.plugins/org.eclipse.jdt.core
+1012852208.index
+3114873761.index
+1865797976.index

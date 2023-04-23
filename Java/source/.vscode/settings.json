@@ -1,0 +1,8 @@
+{
+    "workbench.colorCustomizations": {
+        "activityBar.background": "#302F01",
+        "titleBar.activeBackground": "#434201",
+        "titleBar.activeForeground": "#FEFDC5",
+        "java_home": "d:/Env/Java/jdk-18.0.2"
+    }
+}
