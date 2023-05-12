@@ -1,7 +1,5 @@
 package expr7;
 
-import java.util.Scanner;
-
 /**
  * ComplexTest
  */

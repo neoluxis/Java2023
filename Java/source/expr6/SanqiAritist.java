@@ -8,7 +8,10 @@ public class SanqiAritist implements forMovie, forSing, forTV {
 
   public SanqiAritist(String name) {
     this.name = name;
-    System.out.println(this);
+  }
+
+  public void greeting() {
+    System.out.println("I am " + name + ".");
   }
 
   @Override
@@ -32,10 +35,17 @@ public class SanqiAritist implements forMovie, forSing, forTV {
   }
 
   public static void main(String[] args) {
-    SanqiAritist sanqi = new SanqiAritist("Sanqi");
-    sanqi.actInMovie();
-    sanqi.actInTV();
-    sanqi.sing();
+    SanqiAritist mary = new SanqiAritist("Mary");
+    mary.greeting();
+    mary.actInMovie();
+    mary.sing();
+    mary.actInTV();
+    SanqiAritist jack = new SanqiAritist("Jack");
+    jack.greeting();
+    jack.actInMovie();
+    jack.sing();
+    jack.actInTV();
+    
   }
 }
 
